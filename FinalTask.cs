@@ -14,4 +14,10 @@ string[] array2 = new string [m];
 Console.WriteLine (m);
 Console.WriteLine (string.Join(", ", array));
 for (int i = 0; i < n; i++) {
+    if (array[i].Length < 4) {
+        array2[j] = array[i];
+        j += 1;
+    }
 
+}
+Console.WriteLine (string.Join(", ", array2));
