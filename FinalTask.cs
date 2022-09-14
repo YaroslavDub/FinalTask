@@ -8,4 +8,10 @@ for (int i = 0; i < n; i++) {
     array[i] = Console.ReadLine();
     if (array[i].Length <= 3) {
         m += 1;
+    }
+}
+string[] array2 = new string [m];
+Console.WriteLine (m);
+Console.WriteLine (string.Join(", ", array));
+for (int i = 0; i < n; i++) {
 
